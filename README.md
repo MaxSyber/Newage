@@ -1,4 +1,4 @@
-# Dappazon
+# NewAge
 
 ## Technology Stack & Tools
 

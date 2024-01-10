@@ -12,12 +12,35 @@ const tokens = (n) => {
 }
 
 async function main() {
+  const [deployer] = await ethers.getSigners()
+
+  const Newage = await hre.ethers.getContractFactory("Newage")
+  const newage = await Newage.deploy()
+  await newage.deployed()
+
+  console.log(`Deployed Newage Contract at: ${newage.address}\n`)
+
+  //List Items
+
+  for(let i = 0; i < items.length; i++) {
+    const transaction = await newage.connect(deployer).list(
+      items[i].id,
+      items[i].name,
+      items[i].category,
+      items[i].image,
+      tokens(items[i].price),
+      items[i].rating,
+      ) 
+
+    await transaction.wait()
+
+    console.log(`Listed item ${items[i].id}: ${items[i].name}: ${items[i].image} :${items[i].category}`)
+  }
 
 }
 
-// We recommend this pattern to be able to use async/await everywhere
-// and properly handle errors.
 main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });
+ 

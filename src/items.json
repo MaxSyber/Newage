@@ -2,84 +2,75 @@
   "items": [
     {
       "id": 1,
-      "name": "Camera",
-      "category": "electronics",
-      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/camera.jpg",
-      "price": "1",
-      "rating": 4,
-      "stock": 10
+      "name": "Warrior Mouse",
+      "category": "mice",
+      "image": "/items/mice1.jpg",
+      "price": "1.2",
+      "rating": 5
     },
     {
       "id": 2,
-      "name": "Drone",
-      "category": "electronics",
-      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/drone.jpg",
-      "price": "2",
-      "rating": 5,
-      "stock": 6
+      "name": "Ax Mouse",
+      "category": "mice",
+      "image": "/items/mice2.jpg",
+      "price": "1",
+      "rating": 5 
     },
     {
       "id": 3,
-      "name": "Headset",
-      "category": "electronics",
-      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/headset.jpg",
-      "price": "0.25",
-      "rating": 2,
-      "stock": 24
+      "name": "Sword and Shield Mouse",
+      "category": "mice",
+      "image": "/items/mice3.jpg",
+      "price": "1",
+      "rating": 5
     },
     {
       "id": 4,
-      "name": "Shoes",
-      "category": "clothing",
-      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/shoes.jpg",
+      "name": "Flowers",
+      "category": "landscape",
+      "image": "/items/landscape1.jpg",
       "price": "0.25",
-      "rating": 5,
-      "stock": 3
+      "rating": 4
     },
     {
       "id": 5,
-      "name": "Sunglasses",
-      "category": "clothing",
-      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/sunglasses.jpg",
+      "name": "Wheat",
+      "category": "landscape",
+      "image": "/items/landscape2.jpg",
       "price": "0.10",
-      "rating": 4,
-      "stock": 12
+      "rating": 3
     },
     {
       "id": 6,
-      "name": "Watch",
-      "category": "clothing",
-      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/watch.jpg",
-      "price": "1.25",
-      "rating": 4,
-      "stock": 0
+      "name": "Swiss Alps",
+      "category": "landscape",
+      "image": "/items/landscape3.jpg",
+      "price": "0.10",
+      "rating": 3
     },
     {
       "id": 7,
-      "name": "Puzzle Cube",
-      "category": "toys",
-      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/cube.jpg",
-      "price": "0.05",
-      "rating": 4,
-      "stock": 15
+      "name": "Orbiting Moon",
+      "category": "space",
+      "image": "/items/space1.jpg",
+      "price": "0.25",
+      "rating": 4
     },
     {
       "id": 8,
-      "name": "Train Set",
-      "category": "toys",
-      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/train.jpg",
-      "price": "0.20",
-      "rating": 4,
-      "stock": 0
+      "name": "Blue Planet with Moon",
+      "category": "space",
+      "image": "/items/space2.jpg",
+      "price": "0.25",
+      "rating": 4
     },
     {
       "id": 9,
-      "name": "Robot Set",
-      "category": "toys",
-      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/robots.jpg",
-      "price": "0.15",
-      "rating": 3,
-      "stock": 12
+      "name": "Ice Planet with Moon",
+      "category": "space",
+      "image": "/items/space3.jpg",
+      "price": "0.30",
+      "rating": 4
     }
   ]
 }
