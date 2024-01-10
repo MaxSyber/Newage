@@ -3,5 +3,12 @@
         "newage": {
             "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3"
         }
+    },
+
+    "80001": {
+        "newage": {
+            "address": "0x0099cfe02A24ccAad379816C75117f7394c38Cd5"
+        },
+    "exploreURL": "https://mumbai.polygonscan.com/"
     }
 }
